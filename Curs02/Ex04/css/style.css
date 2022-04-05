@@ -1,0 +1,58 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.box-1 {
+  border: 1px solid red;
+}
+
+.box-2 {
+  border: 2px solid red;
+}
+
+.box-3 {
+  border: 3px solid red;
+}
+
+.box-4 {
+  border: 4px solid red;
+}
+
+.box-5 {
+  border: 5px solid red;
+}
+
+.box-1 {
+  width: 1;
+  height: 1;
+}
+
+.box-2 {
+  width: 2;
+  height: 2;
+}
+
+.box-3 {
+  width: 3;
+  height: 3;
+}
+
+.box-4 {
+  width: 4;
+  height: 4;
+}
+
+.box-5 {
+  width: 5;
+  height: 5;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -9,3 +9,16 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+@for $i from 1 through 5 {
+  .box-#{$i} {
+    border: #{$i}px solid red;
+  }
+}
+
+@for $i from 01 to 06 {
+  .box-#{$i} {
+    width: #{$i};
+    height: #{$i};
+  }
+}
