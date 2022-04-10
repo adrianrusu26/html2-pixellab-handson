@@ -44,4 +44,24 @@
   background-color: gray;
 }
 
+.text-main {
+  color: red;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.text-secondary {
+  color: green;
+}
+
+.text-tertiary {
+  color: yellow;
+}
+
+.text-neutral {
+  color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */

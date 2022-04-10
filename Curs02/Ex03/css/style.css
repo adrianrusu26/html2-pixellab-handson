@@ -2,8 +2,20 @@
   color: purple;
 }
 
+.btn-secondary {
+  color: blue;
+}
+
 .btn-inverted {
   background-color: transparent;
+}
+
+.btn-inverted-light {
+  background-color: lightgray;
+}
+
+.btn-tertiary {
+  color: green;
 }
 
 .btn-text-gray {

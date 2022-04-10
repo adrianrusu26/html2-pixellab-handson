@@ -31,3 +31,17 @@ $background-colors: (
     background-color: $value;
   }
 }
+
+$text-colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $t-colors, $value in $text-colors {
+  .text-#{$t-colors} {
+    color: $value;
+  }
+}
