@@ -55,12 +55,28 @@
 
                 <textarea
                   class="form-control"
-                  name="recpie-description"
+                  name="recipe-description"
                   id="recipe-description"
                   cols="30"
                   rows="8"
                   required
                   placeholder="Descriere lunga *"
+                ></textarea>
+              </div>
+
+              <div class="input-group">
+                <label for="recipe-short" class="input-group-text"
+                  >Descriere Scurta *</label
+                >
+
+                <textarea
+                  class="form-control"
+                  name="recipe-short"
+                  id="recipe-short"
+                  cols="30"
+                  rows="8"
+                  placeholder="Descriere scurta *"
+                  required
                 ></textarea>
               </div>
             </div>
@@ -78,6 +94,16 @@
                   class="form-control"
                   required
                 />
+              </div>
+
+              <div class="input-group mt-5">
+                <label for="autor" class="input-group-text">Autor *</label>
+
+                <select name="autor" class="form-control" id="autor" required>
+                  <option value="">-- autor --</option>
+                  <option value="">Smecherie</option>
+                  <option value="">cu surub</option>
+                </select>
               </div>
             </div>
           </section>
@@ -114,6 +140,34 @@
                   id="author-name"
                   class="form-control"
                   placeholder="Nume autor *"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="author-surname" class="input-group-text"
+                  >Prenume autor *</label
+                >
+
+                <input
+                  type="text"
+                  name="author-surname"
+                  id="author-surname"
+                  class="form-control"
+                  placeholder="Prenume autor *"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="e-mail" class="input-group-text">E-mail *</label>
+
+                <input
+                  type="text"
+                  name="e-mail"
+                  id="e-mail"
+                  class="form-control"
+                  placeholder="E-mail *"
                   required
                 />
               </div>
@@ -190,6 +244,44 @@
                     Sterge
                   </button>
                 </li>
+
+                <li class="mt-2">
+                  200 g ceapa
+                  <button
+                    type="button"
+                    title="Editeaza"
+                    class="btn btn-primary btn-sm"
+                  >
+                    Editeaza
+                  </button>
+
+                  <button
+                    type="button"
+                    title="Sterge"
+                    class="btn btn-danger btn-sm"
+                  >
+                    Sterge
+                  </button>
+                </li>
+
+                <li class="mt-2">
+                  200 g ardei gras
+                  <button
+                    type="button"
+                    title="Editeaza"
+                    class="btn btn-primary btn-sm"
+                  >
+                    Editeaza
+                  </button>
+
+                  <button
+                    type="button"
+                    title="Sterge"
+                    class="btn btn-danger btn-sm"
+                  >
+                    Sterge
+                  </button>
+                </li>
               </ul>
             </div>
           </section>
@@ -217,9 +309,44 @@
                 />
               </div>
 
+              <div class="input-group">
+                <label for="step-surname" class="input-group-text"
+                  >Subtitlu pas *</label
+                >
+
+                <input
+                  type="text"
+                  name="step-surname"
+                  id="step-surname"
+                  class="form-control"
+                  placeholder="Subtitlu pas *"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="step-description" class="input-group-text"
+                  >Descriere pas *</label
+                >
+
+                <textarea
+                  class="form-control"
+                  name="step-description"
+                  id="step-description"
+                  cols="30"
+                  rows="8"
+                  required
+                  placeholder="Descriere pas * *"
+                ></textarea>
+              </div>
+
               <div class="text-end">
                 <button type="button" class="btn btn-outline-danger">
                   Reseteaza
+                </button>
+
+                <button type="button" class="btn btn-primary">
+                  Adauga pas
                 </button>
               </div>
             </div>
